@@ -1,0 +1,192 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    background: #f1f1f1;
+    background-image: url('img/pexels-anete-lusina-4792498.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;  
+    text-align: center;  
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:#56c3b7;  
+
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 100vh;
+}
+
+header{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.econest-logo{
+    height: 10em;
+}
+
+.middle-text{
+    min-height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.text1{
+    font-size: 1.5rem;
+}
+
+.text2{
+    margin-top:1rem;
+    font-size:5rem;
+}
+
+.contact-us{
+    font-size: 1.2rem;
+    margin-top:3rem;
+    background-color: rgba(194, 194, 194, 0.671);
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 99px;
+}
+
+
+.blue-text{
+    font-weight: 500;
+    font-size:1.2rem;
+    color:#56c3b7;    
+}
+
+
+
+footer{
+    min-height: 30vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15vh 15vh;
+    align-items: center;
+}
+
+.lower-middle-container{
+    font-size: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2;
+    justify-self: center; 
+    align-self:end;
+
+
+}
+
+.NatHERS-disclaimer{
+    font-size: .9rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:2;
+    justify-self: center;
+}
+
+.logos-container{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end:2;
+    justify-self: end;
+}
+
+.ext-logo{
+    height: 5em;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .econest-logo{
+        height: 6em;
+    }
+
+
+    .middle-text{
+        min-height:50vh;
+    }
+
+    .text1{
+        font-size: 1rem;
+    }
+    
+    .text2{
+        margin-top:1rem;
+        font-size:3.1rem;
+    }
+
+    .contact-us{
+        margin-top:1rem;
+        font-size: 1rem;
+    }
+
+
+
+    footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .lower-middle-container{
+        padding: 0 1rem 0 1rem;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .NatHERS-disclaimer{
+        font-size: .8rem;
+        text-align: center;
+
+        padding: 0 1rem 0 1rem;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .logos-container{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        justify-self: center;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
